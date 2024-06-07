@@ -1,0 +1,80 @@
+/* Custome Shared Styles */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* End Shared Styles */
+/* nav style */
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 3px 0px;
+    padding: 40px 0px;
+}
+.logo-title{
+    font-weight: 800 ;
+}
+.logo{
+    width: 35%;
+}
+.logo-firstletter{
+    color: #FF42A5;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color: #FF42A5;
+}
+.followuson{
+    background-color: #0b02232a;
+    padding: 5px 15px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.svgutube{
+    padding: 0px 10px;
+}
+/* end nav */
+/* start banner */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerimg{
+    width: 100%;
+}
+.banner-title{
+    font-size: 2.4rem;
+}
+.bannertitletwo{
+    font-size: 4.4rem;
+    font-weight: 800;
+    background: linear-gradient(to bottom, #F948B2, 
+                    #8758F1); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+}
+.banner-container li{
+    list-style: none;
+}
+.svgic{
+    width: 10%x;
+}
