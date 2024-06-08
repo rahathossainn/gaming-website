@@ -16,6 +16,12 @@
     background-color: #4EC5F7;
     color: white;
 }
+.btn4{
+    background-color: white;
+    color: #FF42A5;
+    margin-top: 20px;
+    border-radius: 50px;
+}
 .pink-color-font{
     font-size: 2rem;
     font-weight: 800;
@@ -211,6 +217,67 @@
     position: absolute;
     left: 417px;
     top: 300px;
+}
+/* END ONLINE GAMES STYLES */
+
+/* start career styles */
+.career-container{
+    margin-top: 80px;
+    background-color: #FF42A5;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+    color: white;
+}
+.career-title{
+    font-size: 2rem;
+}
+.career-description{
+    margin: 20px 0px;
+}
+.openings{
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+}
+.job, .location{
+    padding: 10px 0px ;
+}
+.career-image{
+    
+}
+.carrerimg{
+    max-width: 100%;
+    height: auto;
+    
+}
+/* end carrer styles */
+/* start logos */
+.logos-container{
+    margin-top: 80px;
+}
+.five-logos, .flh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.four-logos{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.flh:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+}
+.flht:hover{
+    color: #FF42A5;
 }
  /* responsive */
  @media screen and (max-width: 576px) {
